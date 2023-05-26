@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #131E18;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.task2_goi.Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1b2821" height="121.0" layoutX="-36.0" layoutY="215.0" stroke="#1b2821" strokeType="INSIDE" width="980.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#58826c" height="200.0" layoutX="-23.0" layoutY="16.0" stroke="BLACK" strokeType="INSIDE" width="967.0" />
+      <Ellipse fill="#c1c771" layoutX="523.0" layoutY="440.0" radiusX="82.0" radiusY="87.0" rotate="182.0" stroke="#5d885b" strokeType="INSIDE" />
+      <Ellipse fill="#c1c771" layoutX="846.0" layoutY="436.0" radiusX="82.0" radiusY="87.0" rotate="182.0" stroke="#c1c771" strokeType="INSIDE" />
+      <Button fx:id="btn_complete" layoutX="460.0" layoutY="384.0" mnemonicParsing="false" onAction="#Complete" prefHeight="113.0" prefWidth="126.0" style="-fx-background-color: #c1c771;" text="complete" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_next" layoutX="783.0" layoutY="380.0" mnemonicParsing="false" onAction="#Next" prefHeight="113.0" prefWidth="126.0" style="-fx-background-color: #C1C771;" text="NEXT" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="20.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+      <Ellipse fill="#c8cd7b" layoutX="676.0" layoutY="563.0" radiusX="52.0" radiusY="24.0" stroke="#c8cd7b" strokeType="INSIDE" />
+      <Button fx:id="btn_rest" layoutX="640.0" layoutY="550.0" mnemonicParsing="false" onAction="#Rest" prefHeight="27.0" prefWidth="75.0" style="-fx-background-color: #C8CD7B;" text="REST" textFill="WHITE">
+         <font>
+            <Font name="Calibri Bold" size="14.0" />
+         </font>
+      </Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#78a993" height="397.0" layoutY="216.0" stroke="BLACK" strokeType="INSIDE" width="420.0" />
+      <Label fx:id="q8" alignment="CENTER" layoutX="189.0" layoutY="59.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #78A993;" text="Empty" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="q6" alignment="CENTER" layoutX="369.0" layoutY="59.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #78A993;" text="Empty" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="q9" alignment="CENTER" layoutX="100.0" layoutY="59.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #78A993;" text="Empty" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="q3" alignment="CENTER" layoutX="638.0" layoutY="59.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #78A993;" text="Empty" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="q7" alignment="CENTER" layoutX="279.0" layoutY="59.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #78A993;" text="Empty" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="q10" alignment="CENTER" layoutX="10.0" layoutY="59.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #78A993;" text="Empty" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="q5" alignment="CENTER" layoutX="459.0" layoutY="59.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #78A993;" text="Empty" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="q4" alignment="CENTER" layoutX="549.0" layoutY="59.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #78A993;" text="Empty" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Circle fill="#5d885b" layoutX="684.0" layoutY="594.0" radius="6.0" stroke="#5d885b" strokeType="INSIDE" />
+      <Circle fill="#5d885b" layoutX="660.0" layoutY="593.0" radius="6.0" stroke="#5d885b" strokeType="INSIDE" />
+      <Circle fill="#5d885b" layoutX="638.0" layoutY="588.0" radius="6.0" stroke="#5d885b" strokeType="INSIDE" />
+      <Circle fill="#5d885b" layoutX="705.0" layoutY="590.0" radius="6.0" stroke="#5d885b" strokeType="INSIDE" />
+      <Label fx:id="q2" alignment="CENTER" layoutX="728.0" layoutY="59.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #78A993;" text="Empty" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="q1" alignment="CENTER" layoutX="818.0" layoutY="59.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #78A993;" text="Empty" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="66.0" layoutY="219.0" prefHeight="80.0" prefWidth="271.0" style="-fx-background-color: #78A993;" text="WELCOME" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="33.0" layoutY="275.0" prefHeight="80.0" prefWidth="346.0" style="-fx-background-color: #78A993;" text="Chose your phone type please." textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboBox" layoutX="225.0" layoutY="342.0" prefHeight="39.0" prefWidth="181.0" />
+      <Button fx:id="btn_done" layoutX="21.0" layoutY="342.0" lineSpacing="3.0" mnemonicParsing="false" onAction="#Done" prefHeight="39.0" prefWidth="181.0" style="-fx-background-color: #58826c;" text="DONE" textAlignment="CENTER">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="18.0" />
+         </font>
+      </Button>
+      <Circle fill="#5d885b" layoutX="677.0" layoutY="462.0" radius="10.0" stroke="#5d885b" strokeType="INSIDE" />
+      <Circle fill="#5d885b" layoutX="726.0" layoutY="581.0" radius="6.0" stroke="#5d885b" strokeType="INSIDE" />
+      <Label alignment="CENTER" layoutX="441.0" layoutY="235.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #131E18;" text="NO:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_no" alignment="CENTER" layoutX="521.0" layoutY="235.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #131E18;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="768.0" layoutY="235.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #131E18;" text="ALL:" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="label_all" alignment="CENTER" layoutX="848.0" layoutY="235.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #131E18;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="598.0" layoutY="235.0" prefHeight="80.0" prefWidth="80.0" style="-fx-background-color: #131E18;" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="678.0" layoutY="235.0" prefHeight="80.0" prefWidth="90.0" style="-fx-background-color: #131E18;" textAlignment="CENTER">
+         <font>
+            <Font name="Book Antiqua" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="image_qr" fitHeight="150.0" fitWidth="200.0" layoutX="106.0" layoutY="443.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
